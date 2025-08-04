@@ -22898,8 +22898,9 @@ aiv:function aiv(a,b,c){this.a=a
 this.b=b
 this.c=c},
 aiq:function aiq(a){this.a=a},
-air:function air(a,b){this.a=a
-this.b=b},
+air:function air(a,b,c){this.a=a
+this.b=b
+this.c=c},
 ain:function ain(a){this.a=a},
 aio:function aio(a){this.a=a},
 aip:function aip(a,b){this.a=a
@@ -76218,24 +76219,25 @@ g=A.a([],t.Kk)
 for(f=0;f<h.length;f=e){e=f+1
 g.push(h[f].aca(e))}B.b.e3(s,new A.aiu())
 this.ak(new A.aiv(this,g,a))},
-qe(){var s=0,r=A.T(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h
+qe(){var s=0,r=A.T(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g
 var $async$qe=A.P(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:o.ak(new A.aiq(o))
+n=A.hc("https://raw.githubusercontent.com/bakpia/klasemen/refs/heads/main/assets/data/klas.JSON?v="+Date.now())
 q=3
 s=6
-return A.Y(A.aHg(A.hc("https://raw.githubusercontent.com/bakpia/klasemen/refs/heads/main/assets/data/klas.JSON")),$async$qe)
-case 6:n=b
-if(n.b===200){j=n
-m=B.cx.rg(A.aH3(A.aEQ(j.e)).fs(j.w),null)
-l=A.apr(m)
-o.LD(l)}else{j=A.e0("Gagal memuat data. Status: "+n.b)
-throw A.h(j)}q=1
+return A.Y(A.aHg(n),$async$qe)
+case 6:m=b
+if(m.b===200){i=m
+l=B.cx.rg(A.aH3(A.aEQ(i.e)).fs(i.w),null)
+k=A.apr(l)
+o.LD(k)}else{i=A.e0("Gagal memuat data. Status: "+m.b)
+throw A.h(i)}q=1
 s=5
 break
 case 3:q=2
-h=p.pop()
-k=A.ao(h)
-o.ak(new A.air(o,k))
+g=p.pop()
+j=A.ao(g)
+o.ak(new A.air(o,n,j))
 s=5
 break
 case 2:s=1
@@ -76298,7 +76300,7 @@ s.r=""},
 $S:0}
 A.air.prototype={
 $0(){var s=this.a
-s.r="Gagal memuat data dari URL:\nhttps://raw.githubusercontent.com/bakpia/klasemen/refs/heads/main/assets/data/klas.JSON\n\nMenampilkan data cadangan.\nError: "+A.l(this.b)
+s.r="Gagal memuat data dari URL:\n"+this.b.k(0)+"\n\nMenampilkan data cadangan.\nError: "+A.l(this.c)
 s.w=!0
 s.x=!1
 s.a52()},
