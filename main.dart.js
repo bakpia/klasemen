@@ -75186,7 +75186,7 @@ uB(){var s=0,r=A.S(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,
 var $async$uB=A.O(function(a7,a8){if(a7===1){p.push(a8)
 s=q}while(true)switch(s){case 0:q=3
 n=Date.now()
-m=A.ha("https://famous-fairy-a0c566.netlify.app/data/klas.JSON?v="+A.m(n))
+m=A.ha("https://gindex.bakpia12.workers.dev/1:/klas.JSON?v="+A.m(n))
 A.mr("Mencoba memuat data dari: "+A.m(m))
 s=6
 return A.V(A.aFU(m),$async$uB)
@@ -75249,7 +75249,7 @@ d=J.bu(p,m)
 d.toString
 k=d
 if(n.c==="3:0"){l=new A.cs(l.a,l.b,l.c,l.d,l.e,l.f,l.r,l.w,l.x,l.y,l.z+1,l.Q,l.as,l.at,l.ax,l.ay)
-k=new A.cs(k.a,k.b,k.c,k.d,k.e,k.f,k.r,k.w,k.x,k.y,k.z,k.Q,k.as,k.at,k.ax,k.ay+1)}else if(n.c==="3:1"){l=new A.cs(l.a,l.b,l.c,l.d,l.e,l.f,l.r,l.w,l.x,l.y,l.z,l.Q+1,l.as,l.at,l.ax,l.ay)
+k=new A.cs(k.a,k.b,k.c,k.d,k.e,k.f,k.r,k.w,k.x,k.y,k.z,k.Q,k.as,k.at,k.ax+1,k.ay)}else if(n.c==="3:1"){l=new A.cs(l.a,l.b,l.c,l.d,l.e,l.f,l.r,l.w,l.x,l.y,l.z,l.Q+1,l.as,l.at,l.ax,l.ay)
 k=new A.cs(k.a,k.b,k.c,k.d,k.e,k.f,k.r,k.w,k.x,k.y,k.z,k.Q,k.as,k.at,k.ax+1,k.ay)}else if(n.c==="3:2"){l=new A.cs(l.a,l.b,l.c,l.d,l.e,l.f,l.r,l.w,l.x,l.y,l.z,l.Q,l.as+1,l.at,l.ax,l.ay)
 k=new A.cs(k.a,k.b,k.c,k.d,k.e,k.f,k.r,k.w,k.x,k.y,k.z,k.Q,k.as,k.at+1,k.ax,k.ay)}J.et(p,n.d,l)
 J.et(p,m,k)}}g=p
